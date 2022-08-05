@@ -28,6 +28,10 @@ html[data-theme='dark'] .svg-filter{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
+}
+body {
+  overflow: hidden; /* Hide scrollbars */
 }
 
 .body{
@@ -203,6 +207,7 @@ html.transition *:after {
 @media (max-width: 560px) {
     body{  
         display:block;
+        overflow: scroll;
     }
 
 
