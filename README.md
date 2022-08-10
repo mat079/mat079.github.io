@@ -1,5 +1,7 @@
-Website inspired from : https://maxence.maireaux.fr/ 
+# Personal website : mat079.github.io
 
-Hamburger : https://www.youtube.com/watch?v=dIyVTjJAkLw&list=WL&index=4
-Dark Mode : https://www.youtube.com/watch?v=ZKXv_ZHQ654
+
+### Website inspired from : https://maxence.maireaux.fr/ 
+### Hamburger inspired from : https://www.youtube.com/watch?v=dIyVTjJAkLw&list=WL&index=4
+### Dark Mode inspired from : https://www.youtube.com/watch?v=ZKXv_ZHQ654
 
