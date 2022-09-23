@@ -1,13 +1,18 @@
 //HAMBURGER MENU TOGGLE
 const menuBtn = document.querySelector('.menu-btn');
+const navMenu = document.querySelector('.nav-menu');
 let menuOpen = false;
 
 menuBtn.addEventListener('click', () =>{
     if(!menuOpen){
         menuBtn.classList.add('open');
+        navMenu.style.display = "flex";
         menuOpen = true;
+
     } else{
         menuBtn.classList.remove('open');
+
+        navMenu.style.display = "none";
         menuOpen = false;
     }
 })
