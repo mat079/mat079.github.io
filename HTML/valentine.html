@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/styles_valentine.css">
+    <title>Valentine's Proposal</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Mainprompt">
+            <img class="image" src="../PROPS/IMGS/images_valentines/flower.png"></img>
+            <h1 class="hh" id="name">Coucou Océ!</h1>
+            <p class="pp" id="question">Veux-tu être ma Valentine?</p>
+            <div class="buttons">
+                <button id="no-button" onclick="showMessage('Non')">Non</button>
+                <button onclick="showMessage('Oui')" id="yesButton">Oui</button>
+            </div>
+            <div class="hidden-message" id="no-message">
+                <p>Bien essayé, mais tu ne peux pas t'échapper si facilement!</p>
+            </div>
+            <div class="hidden-message" id="yes-message">
+                <p>OUI! On se voit le 14, nounette.</p>
+            </div>
+        </div>
+    </div>
+    <script src="../JS/script_valentine.js"></script>
+</body>
+
+</html>
